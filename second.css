@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    min-width: 960px;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffffff;
+    background-color: #ffffffe3;
+    background-image: url("img/s1100\ копия.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+  
+  }
+
+
+.intro {
+    margin: 0 0 250px;
+    padding-left: 50px;
+    color: rgb(255, 255, 255);
+}
+h1 {
+    margin: 100px 0 50px;
+    padding-left: 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 88px;
+    line-height: 96px;
+    font-weight: 200;
+    color: rgb(252, 247, 247);
+    text-shadow: 2px 1px 20px rgb(8, 2, 54);
+
+}
+  .page-footer {
+    padding: 15px 0;
+    background-color: #020202;
+    color: #ffffff;
+  }
+  
+  .page-footer a {
+    margin-left: 56px;
+    color: inherit;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  
+  .footer-email {
+    padding-left: 30px;
+    background-image: url("img/icon-email-footer.svg");
+  }
+  
+  .footer-phone {
+    padding-left: 25px;
+    background-image: url("img/icon-phone-footer.svg");
+  }
+    .header-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-footer.svg");
+}
+.container {
+    max-width: 928px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.header-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-footer.svg");
+}
+
+.header-email {
+    padding-left: 25px;
+    background-image: url("img/icon-email-footer.svg");
+  }
+  
+
+.page-header .container,
+.page-footer .container {
+  max-width: 1408px;
+  text-align: right;
+}
+
+.page-header a{
+  margin-left: 56px;
+  color: #ffffff;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.page-footer {
+
+  }
+  .page-header {
+    padding: 15px 0;
+
+    color: #ffffff;
+  }
+
+.block1 {
+    text-align: left;
+    padding: 20px 0;
+    margin-right: 150px;
+    margin-left: 100px;
+    background-color: #ffffff8c;
+    color: #0c0c0c;
+    border-radius: 10px;
+    
+}
+
+.cpm_type2-a1 {
+    --cpmAnimationDuration: .4s;
+    }
+    
+    .cpm_type2:hover, 
+    .cpm_type2:focus {
+    --cpmMask: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    }
+    
+    .cpm{
+        float: left;
+      --uiCMPBoxSizing: var(--cpmBoxSizing, border-box);
+      --uiCMPDisplay: var(--cpmDisplay, inline-block);
+      --uiCMPMask: var(--cpmMask);
+      --uiCPMStrokeThickness: var(--cpmStrokeThickness);
+      --uiCPMStrokeColor: var(--cpmStrokeColor);
+      --uiCPMAnimationDuration: var(--cpmAnimationDuration, .2s);
+      --uiCPMAnimationTimingFunction: var(--cpmAnimationTimingFunction, ease-out);
+      
+      box-sizing: var(--uiCMPBoxSizing);
+      display: var(--uiCMPDisplay);
+      padding: var(--uiCPMStrokeThickness);
+      clip-path: var(--uiCMPMask);
+      background-color: var(--uiCPMStrokeColor);
+    }
+    
+    .cpm__img{
+      max-width: 100%;
+      display: block;
+      clip-path: var(--cpmMask);
+    }
+    
+    .cpm, 
+    .cpm__img{
+    
+      transition: clip-path var(--uiCPMAnimationDuration) var(--uiCPMAnimationTimingFunction);
+    }
+    
+    /* masks */
+    
+    .cpm_type1{
+      --cpmMask: polygon(0 10%, 10% 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%);
+    }
+    
+    .cpm_type2{
+      --cpmMask: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    }
+    
+    .cpm_type3{
+      --cpmMask: polygon(0 10%, 10% 10%, 10% 0, 90% 0, 90% 10%, 100% 10%, 100% 90%, 90% 90%, 90% 100%, 10% 100%, 10% 90%, 0 90%);
+    }
+    
+    .cpm_type4{
+      --cpmMask: polygon(0 50%, 50% 0, 100% 50%, 50% 100%);
+    }
+    .cpm{
+      --cpmStrokeColor: #020202;
+      --cpmStrokeThickness: 5px;
+    }
+
+
+.carant {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.text-may {
+    padding-left: 50px;
+    padding-right: 50px;
+    white-space: pre-wrap;
+}
+
+.button {
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+  margin-left: 20px;
+  background-image: url(img/list.png);
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 90%;
+
+}
